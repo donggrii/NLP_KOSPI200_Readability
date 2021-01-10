@@ -2,9 +2,11 @@
 ## ABSTRACT
 - Dart 기업 공시에 매년 1번씩 공시되는, 기업이 제출한 사업보고서의 재무제표 등 정형 데이터를 이용하는 것이 아닌 비정형 데이터인 텍스트를 이용하여 해당 기업의 수익률을 예측해본다. 문장 내 단어의 개수, 복잡한 단어의 비중, 문서의 길이를 이용하여 사업보고서의 핵심 파트인 MD&A(이사의 경영진단 및 분석의견)의 가독성을 측정하고, KOSPI200 기업의 가독성의 추이에 관해 살펴보고, 그 가독성과 수익률 간의 상관관계를 살펴보았다. 그 결과, 가독성이 좋은(읽기 쉬운) 사업보고서를 작성한 기업의 수익률은 가독성이 나쁜(읽기 어려운) 사업보고서를 작성한 기업의 수익률보다 높았을 뿐 아니라, 미래의 수익률도 높았다.
 
-## 참고 논문
-- Schroeder_Gibson(AH 1990) Readbility of Managements Discussion and Analysis
-- Li(2008 JAE) Annual report readability, current earnings, and earnings persistence
+## 참고 논문(paper)
+- Content_Schroeder_Gibson(AH 1990)Readbility of Managements Discussion and Analysis
+- Readability_Li(2008 JAE)Annual report readability, current earnings, and earnings persistence
+- 우리말 사업보고서 가독성 연구의 가능성에 대한 탐색적 연구
+- 홍정하 등(2011) - 텍스트 수준과 가독성 한국어 학습 교재를 이용한 검증과 응용
 
 # 코드 순서
 1. Dart_Crawling_final.ipynb
